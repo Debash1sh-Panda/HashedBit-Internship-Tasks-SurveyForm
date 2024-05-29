@@ -12,6 +12,10 @@ function App() {
     feedback: ''
   });
 
+  // Clear the checked state of all radio buttons
+  const ratingRadios = document.querySelectorAll('input[type="radio"][name="rating"]');
+  ratingRadios.forEach(radio => radio.checked = false);
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -31,8 +35,16 @@ function App() {
   }
   const handleSubmit = (e) => {
     e.preventDefault();
+
+     // Check if a rating has been selected
+    if (formData.rating === '') {
+      alert("Please select a rating");
+      return;
+    }
+
     console.log('Form submitted:', formData);
     clearForm();
+    alert("Form Submitted Successfully 👍");
   };
 
   return (
