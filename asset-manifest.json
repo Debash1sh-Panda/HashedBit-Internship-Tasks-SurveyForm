@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/HashedBit/HashedBit-Internship-Tasks-SurveyForm/static/css/main.f9e2b8ae.css",
-    "main.js": "/HashedBit/HashedBit-Internship-Tasks-SurveyForm/static/js/main.90673666.js",
-    "index.html": "/HashedBit/HashedBit-Internship-Tasks-SurveyForm/index.html",
-    "main.f9e2b8ae.css.map": "/HashedBit/HashedBit-Internship-Tasks-SurveyForm/static/css/main.f9e2b8ae.css.map",
-    "main.90673666.js.map": "/HashedBit/HashedBit-Internship-Tasks-SurveyForm/static/js/main.90673666.js.map"
+    "main.css": "/HashedBit-Internship-Tasks-SurveyForm/static/css/main.f9e2b8ae.css",
+    "main.js": "/HashedBit-Internship-Tasks-SurveyForm/static/js/main.90673666.js",
+    "index.html": "/HashedBit-Internship-Tasks-SurveyForm/index.html",
+    "main.f9e2b8ae.css.map": "/HashedBit-Internship-Tasks-SurveyForm/static/css/main.f9e2b8ae.css.map",
+    "main.90673666.js.map": "/HashedBit-Internship-Tasks-SurveyForm/static/js/main.90673666.js.map"
   },
   "entrypoints": [
     "static/css/main.f9e2b8ae.css",
