@@ -62,12 +62,9 @@ input[type="email"] {
   display: inline-block;
 }
 
-.rating > input:checked ~ label {
-  color: gold;
-}
-
-.rating > input:hover ~ label,
-.rating > input:hover ~ label ~ label {
+.rating > input:checked ~ label,
+.rating > label:hover,
+.rating > label:hover ~ label {
   color: gold;
 }
 
